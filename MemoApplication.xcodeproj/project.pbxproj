@@ -61,6 +61,7 @@
 		6D8837B62289A88C00187BE6 /* MemoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				6DB224BE22C659B70035D650 /* Screen */,
 				6D8837B72289A88C00187BE6 /* AppDelegate.swift */,
 				6D8837B92289A88C00187BE6 /* ViewController.swift */,
 				6D8837BB2289A88C00187BE6 /* Main.storyboard */,
@@ -69,6 +70,29 @@
 				6D8837C32289A88D00187BE6 /* Info.plist */,
 			);
 			path = MemoApplication;
+			sourceTree = "<group>";
+		};
+		6DB224BE22C659B70035D650 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DB224BF22C659C10035D650 /* SplashScreen */,
+				6DB224C022C659E40035D650 /* HomeScreen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		6DB224BF22C659C10035D650 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		6DB224C022C659E40035D650 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 		A5141FEA785E87E2F9C317E9 /* Pods */ = {
@@ -299,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -354,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
