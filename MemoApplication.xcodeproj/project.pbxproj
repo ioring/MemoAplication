@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,6 +61,7 @@
 		6D8837B62289A88C00187BE6 /* MemoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				6DB224BE22C659B70035D650 /* Screen */,
 				6D8837B72289A88C00187BE6 /* AppDelegate.swift */,
 				6D8837B92289A88C00187BE6 /* ViewController.swift */,
 				6D8837BB2289A88C00187BE6 /* Main.storyboard */,
@@ -71,13 +72,35 @@
 			path = MemoApplication;
 			sourceTree = "<group>";
 		};
+		6DB224BE22C659B70035D650 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DB224BF22C659C10035D650 /* SplashScreen */,
+				6DB224C022C659E40035D650 /* HomeScreen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		6DB224BF22C659C10035D650 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		6DB224C022C659E40035D650 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
 		A5141FEA785E87E2F9C317E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				EF52BA8DD17A8EA08D390DCF /* Pods-MemoApplication.debug.xcconfig */,
 				EAA33BB59D3C0B989A23DA23 /* Pods-MemoApplication.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,7 @@
 				6D8837B12289A88C00187BE6 /* Frameworks */,
 				6D8837B22289A88C00187BE6 /* Resources */,
 				88809BCAA1CA3ACF5162B129 /* [CP] Embed Pods Frameworks */,
+				6DE63D1922BF68310008093D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -158,6 +182,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6DE63D1922BF68310008093D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		88809BCAA1CA3ACF5162B129 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
