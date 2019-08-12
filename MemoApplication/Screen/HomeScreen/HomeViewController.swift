@@ -11,6 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var titleItem: UINavigationItem!
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -5,4 +5,5 @@ target 'MemoApplication' do
   pod 'RealmSwift'
   pod 'SwiftGen'
   pod 'TimelineTableViewCell'
+  pod 'FSCalendar'
 end
