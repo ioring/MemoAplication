@@ -80,6 +80,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="Eya-UQ-HRo" id="UCK-1n-3Zg"/>
+                        <outlet property="titleItem" destination="tDQ-Qu-2hu" id="zSH-Oc-gGL"/>
                     </connections>
                 </viewController>
             </objects>
